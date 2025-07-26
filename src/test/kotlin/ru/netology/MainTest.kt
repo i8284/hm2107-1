@@ -65,7 +65,7 @@ class MainTest {
         val translationsMonth = 100_000
 
         val result = calcCommission(amount, card, translationsMonth)
-        assertEquals(0, result)
+        assertEquals(1, result)
     }
 
 }
